@@ -1,0 +1,5 @@
+node_modules
+.devicescript
+.env.local
+.env.*.local
+out/

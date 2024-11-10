@@ -1,0 +1,26 @@
+{
+    "name": "empty",
+    "description": "Prazdny projekt - sablona",
+    "version": "1.0.0",
+    "author": "Svata Dedic",
+    "license": "ISC",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p .",
+        "clean": "shx rm -rf out",
+        "clean-dist": "npm run clean && shx rm -rf node_modules",
+        "watch": "tsc -p . --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@types/node": "^20.12.7",
+        "prompt-sync": "^4.2.0",
+        "chalk": "^4.1.0"
+    },
+    "devDependencies": {
+        "@types/prompt-sync": "^4.2.3",
+        "typescript": "5.4.5",
+        "shx": "^0.3.4"
+    }
+}
